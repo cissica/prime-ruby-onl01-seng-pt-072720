@@ -3,7 +3,7 @@ def prime(integer)
         false
     elsif integer == 2
         true
-    else 
+    else
         (2..n/2).none? { |i| n % i == 0}
     end
   end
