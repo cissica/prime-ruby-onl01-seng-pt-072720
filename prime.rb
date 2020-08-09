@@ -1,4 +1,9 @@
 def prime(integer)
-  return false if integer < 2
-  (2..integer/2).none?{|i| n % i == 0}
+    if integer <= 1
+        false
+    elsif integer == 2
+        true
+    else 
+        (2..n/2).none? { |i| n % i == 0}
+    end
   end
